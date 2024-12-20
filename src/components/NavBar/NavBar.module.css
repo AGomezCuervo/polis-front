@@ -1,0 +1,26 @@
+.nav {
+    border-top: 0.5px solid var(--lines-color);
+    height: 3.5rem;
+    width: 100vw;
+    bottom: 0;
+    background-color: var(--background-color);
+    display:flex;
+    position: fixed;
+
+    a {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        flex-shrink: 1;
+        flex-grow: 0;
+        box-sizing: border-box;
+        padding: 1rem;
+        
+        img {
+            max-height:100%;
+            width:clamp(3px, 7vw, 100%);
+        }
+    }
+}
