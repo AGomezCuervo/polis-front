@@ -1,6 +1,6 @@
 import type { ParentComponent } from 'solid-js';
-import NavBar from "@/components/NavBar/NavBar"
-import TopBar from "@/components/TopBar/TopBar"
+import NavBar from '@/components/NavBar/NavBar'
+import TopBar from '@/components/TopBar/TopBar'
 
 const MainLayout: ParentComponent = (props) => {
   return (

@@ -1,7 +1,6 @@
 import type { Component } from 'solid-js';
 import {A} from '@solidjs/router'
 import styles from './TopBar.module.css';
-import polis_logo from "@/assets/polis-log.svg";
 
 const TopBar: Component = () => {
         return (

@@ -1,5 +1,5 @@
-import type { Component } from "solid-js";
-import styles from "./PostC.module.css";
+import type { Component } from 'solid-js';
+import styles from './PostC.module.css';
 
 interface Data {
     data: {
